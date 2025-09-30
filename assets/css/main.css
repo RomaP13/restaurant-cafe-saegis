@@ -1,0 +1,47 @@
+/*************/
+/* VARIABLES */
+/*************/
+
+:root {
+  --accent: #D3A971;
+  --black: #1C1C1C;
+  --white: #FFFFFF;
+  --gray: #B0B0B0;
+}
+
+/*********/
+/* FONTS */
+/*********/
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Regular.ttf");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Bold.ttf");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Playfair";
+  src: url("../fonts/PlayfairDisplay-Bold.ttf");
+  font-weight: 700;
+}
+
+/***************************/
+/* GENERAL DOCUMENT STYLES */
+/***************************/
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}

@@ -1,0 +1,21 @@
+.soc-icons {
+  list-style-type: none;
+  padding-left: 0;
+  margin-bottom: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.soc-icons__item {
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+.soc-icons__img {
+  fill: var(--gray);
+  transition: all .35s;
+}
+
+.soc-icons__img:hover {
+  fill: var(--accent);
+}

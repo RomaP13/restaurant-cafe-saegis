@@ -1,0 +1,77 @@
+.right-bar {
+  position: absolute;
+  z-index: 2;
+  right: -100%;
+  top: 0;
+  padding: 30px 30px 40px 30px;
+  width: 400px;
+  height: 100vh;
+  background-color: var(--black);
+  color: var(--gray);
+  text-align: center;
+  transition: all .35s;
+}
+
+.right-bar__close {
+  position: absolute;
+  font-size: 0;
+  top: 30px;
+  right: 30px;
+  width: 25px;
+  height: 25px;
+  background-color: transparent;
+  background-image: url("../../img/close-icon.svg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  border: none;
+}
+
+.right-bar__logo {
+  margin-top: 10vh;
+  margin-bottom: 50px;
+}
+
+.right-bar__paragraph {
+  margin-bottom: 50px;
+  padding-right: 40px;
+  padding-left: 40px;
+}
+
+.right-bar__bottom-wrapper {
+  position: absolute;
+  bottom: 40px;
+  left: 30px;
+  width: 340px;
+}
+
+.right-bar__contacts-list {
+  list-style-type: none;
+  padding-left: 0;
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.right-bar__contact {
+  margin-bottom: 10px;
+}
+
+.right-bar__button {
+  display: block;
+  width: 100%;
+  background-color: var(--accent);
+  border-color: var(--accent);
+}
+
+.open-right-bar {
+  right: 0;
+}
+
+@media (max-width: 400px) {
+  .right-bar {
+    width: 100vw;
+  }
+
+  .right-bar__button {
+    width: 315px;
+  }
+}
